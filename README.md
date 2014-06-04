@@ -1,6 +1,6 @@
 # docker-wordpress-nginx
 
-A Dockerfile that installs the latest wordpress, nginx, php-apc and php-fpm.
+A Dockerfile that installs the latest wordpress, nginx, php-apc and php-fpm. Multilanguage wordpress is supported through docker environment variables
 
 NB: A big thanks to [jbfink](https://github.com/jbfink/docker-wordpress) who did most of the hard work on the wordpress parts!
 
@@ -12,6 +12,12 @@ You can check out his [Apache version here](https://github.com/jbfink/docker-wor
 $ git clone https://github.com/eugeneware/docker-wordpress-nginx.git
 $ cd docker-wordpress-nginx
 $ sudo docker build -t="docker-wordpress-nginx" .
+```
+By default, english language will be picked, but passing the language could be passed through docker environment variables
+
+```
+# run it with french language set
+$ sudo docker run --env wordpresslang=fr
 ```
 
 ## Usage
