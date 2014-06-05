@@ -52,5 +52,3 @@ echo "Wordpress installed for $APP_NAME"
 echo "- Wordpress User created: $WORDPRESS_DB_USER"
 echo "- Mysql Database created: $WORDPRESS_DB_NAME"
 echo "- Wordpress User password: $WORDPRESS_DB_PASSWORD"
-
-#/usr/local/bin/supervisord -n
