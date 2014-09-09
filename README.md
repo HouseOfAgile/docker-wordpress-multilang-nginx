@@ -9,9 +9,9 @@ You can check out his [Apache version here](https://github.com/jbfink/docker-wor
 ## Installation
 
 ```
-$ git clone https://github.com/eugeneware/docker-wordpress-nginx.git
-$ cd docker-wordpress-nginx
-$ sudo docker build -t="docker-wordpress-nginx" .
+$ git clone https://github.com/HouseOfAgile/docker-wordpress-multilang-nginx.git
+$ cd docker-wordpress-multilang-nginx
+$ sudo docker build -t="docker-wordpress-multilang-nginx" .
 ```
 By default, english language will be picked, but passing the language could be passed through docker environment variables
 
