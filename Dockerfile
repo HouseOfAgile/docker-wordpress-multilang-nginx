@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.10
+FROM phusion/baseimage:0.9.16
 
 MAINTAINER Eugene Ware <eugene@noblesamurai.com>
 MAINTAINER Jean-Christophe Meillaud <jc@houseofagile.com>
